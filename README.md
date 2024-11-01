@@ -21,11 +21,12 @@ yes | pkg install libjansson wget nano
 3. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
-wget https://github.com/hanz0n/verus-miner-compiled/blob/generic/ccminer
-wget https://github.com/hanz0n/verus-miner-compiled/blob/generic/config.json
-wget https://github.com/hanz0n/verus-miner-compiled/blob/generic/start.sh
+wget https://raw.githubusercontent.com/hanz0n/verus-miner-compiled/refs/heads/generic/ccminer
+wget https://raw.githubusercontent.com/hanz0n/verus-miner-compiled/refs/heads/generic/config.json
+wget https://raw.githubusercontent.com/hanz0n/verus-miner-compiled/refs/heads/generic/start.sh
 chmod +x ccminer start.sh
 ```
+
 # Usage:
 
 1. Edit your pools, address, worker name:
