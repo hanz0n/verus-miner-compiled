@@ -1,22 +1,10 @@
 {
     "pools":
         [{
-            "name": "US-VIPOR",
-            "url": "stratum+tcp://us.vipor.net:5040",
+            "name": "EU-LUCKPOOL",
+            "url": "stratum+tcp://eu.luckpool.net:3960",
             "timeout": 180,
             "disabled": 0
-        },
-        {
-            "name": "USSE-VIPOR",
-            "url": "stratum+tcp://usse.vipor.net:5040",
-            "timeout": 180,
-            "disabled": 0
-        },
-        {
-            "name": "NA-LUCKPOOL",
-            "url": "stratum+tcp://na.luckpool.net:3960",
-            "timeout": 180,
-            "disabled": 1
         },
         {
             "name": "AIH-LOW",
@@ -25,10 +13,10 @@
             "disabled": 1
         },
         {
-            "name": "WW-ZERGPOOL",
-            "url": "stratum+tcp://verushash.mine.zergpool.com:3300",
+            "name": "NA-LUCKPOOL",
+            "url": "stratum+tcp://na.luckpool.net:3960",
             "timeout": 180,
-            "disabled": 1
+            "disabled": 0
         },
         {
             "name": "VPOOL-LOW",
@@ -43,13 +31,13 @@
             "disabled": 1
         }],
 
-    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.Donations",
+    "user": "RKVkvZz6v3Szz49ZaB7THu5i9t6dVyBnEG.DonOr",
     "pass": "",
     "algo": "verus",
     "threads": 8,
     "cpu-priority": 1,
     "cpu-affinity": -1,
     "retry-pause": 10,
-    "api-allow": "192.168.0.0/16",
+    "api-allow": "192.168.0.0/24",
     "api-bind": "0.0.0.0:4068"
 }
