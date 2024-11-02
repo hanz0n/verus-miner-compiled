@@ -9,11 +9,11 @@ This is a WIP repo for pre-compiled ccminer binaries with latest Termux(v0.118.0
 
 # Installation:
 1. Download & install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk):
+or get[Termux](https://f-droid.org/packages/com.termux/): from F-Droid
 ```
 https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
 ```
 
-![Termux QR](https://github.com/hanz0n/verus-miner-compiled/blob/generic/termux.PNG))
 
 2. Get Termux ready:
 - Type `y` then enter key in any prompts!
